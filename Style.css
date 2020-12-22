@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    min-height: 691px;
+    background-color: black;
+    background: linear-gradient(45deg,rgba(0,0,0,1) 50%, rgba(255,0,0,1) 50%);
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: white;
+}
+
+
+.id-input{
+    background-color: black; /* Green */
+    border: 0px;
+    border-bottom:5px solid red;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100%;
+    padding: 15px 32px;
+    text-align: center;
+    width: 30%;
+    margin-top: 10rem;
+    margin-bottom: 10rem    ;
+}
+
+button{
+    background-color: black; /* Green */
+    border:2px solid red;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 175%;
+    padding: 15px 0px;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    width: 30%;
+    box-shadow: 5px 5px red;
+
+}
+button:hover{
+    border :2px solid white;
+    background-color: red;
+    color: black;
+    text-shadow: 2px 2px white;
+    box-shadow: 5px 5px white;
+}
+
+
+@media(max-width:1000px){
+    body{
+        min-height: 610px;
+    background-color: black;
+
+        /* background-image: url("https://media.giphy.com/media/xThuWtNFKZWG6fUFe8/giphy.gif");
+        background-color: rgba(0, 0, 0, 0.935);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        height: 100%;
+        -webkit-transform:rotate(120deg);
+        -moz-transform:rotate(120deg); */
+    }
+} 
